@@ -2,7 +2,7 @@ organization := "edu.washington.cs.knowitall"
 
 name := "multir-framework"
 
-version := "0.3-SNAPSHOT"
+version := "0.4-SNAPSHOT"
 
 fork := true
 
@@ -18,12 +18,6 @@ pomIncludeRepository := { _ => false}
 
 pomExtra := (
   <url>https://github.com/knowitall/MultirFramework</url>
-  <licenses>
-    <license>
-      <name>GNU General Public License Version 2</name>
-      <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
-    </license>
-  </licenses>
  <scm>
    <url>https://github.com/knowitall/MultirFramework</url>
    <connection>scm:git://github.com/knowitall/MultirFramework.git</connection>
