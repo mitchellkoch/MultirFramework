@@ -30,7 +30,7 @@ import edu.stanford.nlp.time.Timex;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.Pair;
 import edu.stanford.nlp.util.Triple;
-import edu.washington.multir.data.TypeSignatureRelationMap;
+import edu.washington.multirframework.data.TypeSignatureRelationMap;
 import edu.washington.multir.util.CorpusUtils;
 import edu.washington.multir.util.TypeConstraintUtils;
 import edu.washington.multir.util.TypeConstraintUtils.GeneralType;
@@ -66,6 +66,7 @@ import edu.washington.multirframework.data.KBArgument;
 import edu.washington.multirframework.data.NegativeAnnotation;
 import edu.washington.multirframework.distantsupervision.DistantSupervision;
 import edu.washington.multirframework.distantsupervision.NegativeExampleCollection;
+import edu.washington.multirframework.distantsupervision.NegativeExampleCollectionByRatio;
 import edu.washington.multirframework.knowledgebase.KnowledgeBase;
 import edu.washington.multirframework.util.BufferedIOUtils;
 
